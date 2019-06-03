@@ -1,0 +1,15 @@
+public class GPA
+{
+    public static void main(){
+        String gpa = JOptionPane.showInputDialog("Please put your GPA");
+        if(Float.parseFloat(gpa) > 4.0){
+            System.out.println("You took an Ap Class");
+        }
+        else if(Float.parseFloat(gpa) <= 4.0 && Float.parseFloat(gpa) >= 0.0){
+            System.out.println("You went to school");
+        }
+        else{
+        System.out.println("You're Lying.");
+    }
+}
+}
